@@ -12,4 +12,9 @@ public class AnimationBehaviour : MonoBehaviour
     {
         animator.SetBool("Dance", dancing);
     }
+    public void Jump()
+    {
+        animator.SetBool("Jump", true);
+        animator.SetBool("Jump", false);
+    }
 }

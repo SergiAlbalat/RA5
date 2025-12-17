@@ -189,6 +189,8 @@ MonoBehaviour:
     HashOfParent: 756556552
   - Hash: -1509147612
     HashOfParent: 756556552
+  - Hash: 256545655
+    HashOfParent: 756556552
   m_LegacyLookAt: {fileID: 0}
   m_LegacyFollow: {fileID: 0}
 --- !u!4 &135574558
@@ -373,8 +375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c30409b5112a35945b2d4f30b7669c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  cameraPosition: {fileID: 575486231}
-  cameraSensibility: 10
 --- !u!143 &370139033
 CharacterController:
   m_ObjectHideFlags: 0
@@ -415,7 +415,9 @@ MonoBehaviour:
   speed: 4
   sprintMultiplier: 2
   cameraPosition: {fileID: 575486231}
+  steerSpeed: 10
   gravity: -2
+  jumpForce: 2
 --- !u!114 &370139035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,7 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineRotationComposer
   Composition:
-    ScreenPosition: {x: 0, y: 0.25}
+    ScreenPosition: {x: 0, y: 0.11644989}
     DeadZone:
       Enabled: 0
       Size: {x: 0.2, y: 0.2}
@@ -668,7 +670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575486225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11541946, y: -0.000000033097333, z: 0.000000003845778, w: 0.9933169}
+  m_LocalRotation: {x: 0.18823355, y: -0.000000012123864, z: 0.000000002323655, w: 0.9821243}
   m_LocalPosition: {x: -0.82122, y: 2.25, z: 0.37461996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -946,7 +948,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794862249}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.115419485, y: -0.000000033097344, z: 0.0000000038457797, w: 0.9933169}
+  m_LocalRotation: {x: 0.18823358, y: -0.0000000121238655, z: 0.0000000023236553, w: 0.9821243}
   m_LocalPosition: {x: 0, y: 2.25, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
