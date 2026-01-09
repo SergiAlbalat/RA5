@@ -40,12 +40,17 @@ public class MoveBehaviour : MonoBehaviour
     {
         Vector3 forward = cameraPosition.forward;
         forward.y = 0;
+        forward.Normalize();
         Vector3 right = cameraPosition.right;
         right.y = 0;
+        right.Normalize();
+        Vector3 aimForward = aimCameraPosition.forward;
+        aimForward.y = 0;
+        aimForward.Normalize();
         Vector3 movement = direction.x * right + direction.z * forward;
         if (aiming)
         {
-            Quaternion rotation = Quaternion.LookRotation(aimCameraPosition.forward);
+            Quaternion rotation = Quaternion.LookRotation(aimForward);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, steerSpeed * Time.deltaTime);
         }
         else
