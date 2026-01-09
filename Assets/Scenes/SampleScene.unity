@@ -919,8 +919,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831001790}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0045397785, y: -0.058562577, z: 0.00026632208, w: 0.9982734}
-  m_LocalPosition: {x: -0.32121998, y: 1.7653668, z: 2.526861}
+  m_LocalRotation: {x: -0.027526243, y: -0.058540907, z: -0.0016147958, w: 0.9979042}
+  m_LocalPosition: {x: -0.32121998, y: 1.5653669, z: 2.526861}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineOrbitalFollow
-  TargetOffset: {x: 0.5, y: 1, z: 0}
+  TargetOffset: {x: 0.5, y: 0.8, z: 0}
   TrackerSettings:
     BindingMode: 4
     PositionDamping: {x: 1, y: 1, z: 1}
