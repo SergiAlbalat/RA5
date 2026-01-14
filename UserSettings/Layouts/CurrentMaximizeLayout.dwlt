@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 4829
+  controlID: 6586
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 4830
+  controlID: 6587
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 4831
+  controlID: 6588
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -250,9 +250,9 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 47232
+      - m_Data: -42808
       m_LastClickedID:
-        m_Data: 47232
+        m_Data: -42808
       m_ExpandedIDs:
       - m_Data: -1298
       m_RenameOverlay:
@@ -343,7 +343,7 @@ MonoBehaviour:
     m_SaveData:
     - dockPosition: 0
       containerId: overlay-toolbar__top
-      displayed: 0
+      displayed: 1
       id: Brush Attributes
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -427,7 +427,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__left
-      displayed: 0
+      displayed: 1
       id: Terrain Tools
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -441,12 +441,12 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__left
-      displayed: 0
+      displayed: 1
       id: Brush Masks
       index: 1
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
-      collapsed: 0
+      collapsed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -832,9 +832,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 85.49441, y: -33.8445, z: 168.16867}
+    m_Target: {x: 40.049866, y: -1.1592729, z: 39.077362}
     speed: 2
-    m_Value: {x: 85.49441, y: -33.8445, z: 168.16867}
+    m_Value: {x: 40.049866, y: -1.1592729, z: 39.077362}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -880,13 +880,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.13082619, y: 0.24160707, z: -0.03289514, w: 0.9609707}
+    m_Target: {x: 0.028934505, y: 0.41468364, z: -0.013201352, w: 0.9094338}
     speed: 2
-    m_Value: {x: 0.13082382, y: 0.24160269, z: -0.032894544, w: 0.9609533}
+    m_Value: {x: 0.02893387, y: 0.41467455, z: -0.013201063, w: 0.9094138}
   m_Size:
-    m_Target: 110.54718
+    m_Target: 24.513973
     speed: 2
-    m_Value: 110.54718
+    m_Value: 24.513973
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1030,8 +1030,8 @@ MonoBehaviour:
     y: 0
     width: 368
     height: 661
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -1202,8 +1202,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 47232
-    m_LastClickedInstanceID: 47232
+    - m_Data: -42808
+    m_LastClickedInstanceID: -42808
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 63160
