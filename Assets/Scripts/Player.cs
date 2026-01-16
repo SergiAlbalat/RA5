@@ -83,9 +83,19 @@ public class Player : MonoBehaviour, InputSystem_Actions.IPlayerActions
     public void OnShoot(InputAction.CallbackContext context)
     {
         if (context.performed)
+        {
             if (_aiming)
             {
-
+                _aB.Shoot(true);
             }
+            else
+            {
+                _aB.Shoot(false);
+            }
+        }
+        if (context.canceled)
+        {
+            _aB.Shoot(false);
+        }
     }
 }

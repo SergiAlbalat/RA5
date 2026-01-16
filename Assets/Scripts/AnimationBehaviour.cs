@@ -28,4 +28,8 @@ public class AnimationBehaviour : MonoBehaviour
     {
         animator.SetBool("Aiming", aiming);
     }
+    public void Shoot(bool shooting)
+    {
+        animator.SetBool("Shooting", shooting);
+    }
 }
