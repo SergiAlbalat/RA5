@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 4401
+  controlID: 14607
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -97,7 +97,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 4402
+  controlID: 14608
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 4403
+  controlID: 14609
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 48374
+      - m_Data: 49328
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
@@ -832,9 +832,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 26.31399, y: 138.04962, z: 191.84856}
+    m_Target: {x: 7.1481314, y: 52.73632, z: 79.84879}
     speed: 2
-    m_Value: {x: 26.31399, y: 138.04962, z: 191.84856}
+    m_Value: {x: 7.1481314, y: 52.73632, z: 79.84879}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -880,13 +880,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.27715102, y: 0.5221505, z: -0.18431391, w: 0.7852521}
+    m_Target: {x: 0.31438425, y: 0.38184455, z: -0.1399689, w: 0.85779566}
     speed: 2
-    m_Value: {x: 0.27742076, y: 0.52096003, z: -0.18389373, w: 0.7860163}
+    m_Value: {x: 0.3143768, y: 0.3818355, z: -0.13996558, w: 0.85777533}
   m_Size:
-    m_Target: 70.452034
+    m_Target: 23.028013
     speed: 2
-    m_Value: 70.452034
+    m_Value: 23.028013
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1030,8 +1030,8 @@ MonoBehaviour:
     y: 0
     width: 368
     height: 661
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -1113,7 +1113,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/LowlyPoly/Stylized Grass Texture/Textures
+    - Assets/Models/Darth_Artisan/Free_Trees/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/LowlyPoly/Stylized Grass Texture/Textures
+  - Assets/Models/Darth_Artisan/Free_Trees/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\RA5
   m_LockTracker:
@@ -1132,15 +1132,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 48374
+    - m_Data: 49420
     m_LastClickedID:
-      m_Data: 48374
+      m_Data: 49420
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 47904
     - m_Data: 48206
-    - m_Data: 48372
-    - m_Data: 48376
+    - m_Data: 49412
+    - m_Data: 49414
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -1205,8 +1205,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 48374
-    m_LastClickedInstanceID: 48374
+    - m_Data: 49328
+    m_LastClickedInstanceID: 49328
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 63160
@@ -1305,8 +1305,8 @@ MonoBehaviour:
     y: 0
     width: 464
     height: 941
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -1350,17 +1350,16 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
-  m_ObjectsLockedBeforeSerialization:
-  - {fileID: 8574412962073106934, guid: a2e19e7e68691c54abe27ba303619964, type: 2}
+  m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
     m_CachedPref: 226
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 479
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 1
+    m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
